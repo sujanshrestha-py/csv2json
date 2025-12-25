@@ -25,7 +25,7 @@ convertToJson.addEventListener('click', () => {
             result.push(obj)
         }
 
-        json.innerHTML = JSON.stringify(result, null, 2);
+        json.value = JSON.stringify(result, null, 2);
 
     }
     
